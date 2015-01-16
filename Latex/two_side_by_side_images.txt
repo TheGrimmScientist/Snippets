@@ -1,0 +1,24 @@
+
+\usepackage{caption}  % used to put plots side by side
+\usepackage{subcaption}  % used to put plots side by side.  http://tex.stackexchange.com/questions/37581/latex-figures-side-by-side
+
+
+
+
+\begin{figure}
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.92\linewidth]{/home/rest/of/filename.end}
+  \caption{caption1}
+  \label{labela}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.92\linewidth]{/home/rest/of/filename2.end}
+  \caption{caption2}
+  \label{labelb}
+\end{subfigure}
+\caption{caption for both}
+\label{label_for_both}
+\end{figure}
